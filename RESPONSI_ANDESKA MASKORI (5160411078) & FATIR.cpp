@@ -240,7 +240,7 @@ system("cls");
     }
     else
     {
-     cout << "Maaf, Kode Buku Salah !!! "<<endl;
+     cout << "Maaf, Kode Buku Salah silahkan coba lagi !!! "<<endl;
      goto kb;
    }
    cout<<"\n ==================================== "<<endl;
@@ -291,7 +291,7 @@ int catatan(){
   string baca;
   ifstream data;
   cout <<"+===================================================+"<<endl;
-  cout <<"|                      History                      |" << endl;
+  cout <<"|                      HISTORI                      |" << endl;
   cout <<"+===================================================+" << endl;
   data.open ("data.txt");
   while(data){
@@ -317,7 +317,7 @@ int main(int argc, int ulang, char x, char *argv[])
   cout <<"| 2. Catatan Pembelian                              |"<<endl;
   cout <<"| 3. Keluar                                         |"<<endl;
   cout <<"+===================================================+"<<endl;
-  cout <<" Masukkan Pilihan Anda : ";cin>>x;
+  cout <<" Masukkan Pilihan : ";cin>>x;
   switch(x){
     case '1':
     kasir();
